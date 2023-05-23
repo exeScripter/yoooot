@@ -1,0 +1,100 @@
+/*
+
+https://yoooot.live/download/
+This code is part of yoooot css library,
+taking the code without clear permission is highly forbidden.
+
+*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background-color: #0056b3;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+  
+.btn-outline {
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid #007bff;
+}
+  
+.btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+  
+.btn-outline:hover {
+    background-color: transparent;
+    color: #0056b3;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-secondary-o {
+    color: #6c757d;
+    background-color: transparent;
+    border-color: #6c757d;
+    border: 1px solid #6c757d;
+}
+
+.btn-secondary-o:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
