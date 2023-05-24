@@ -1,0 +1,154 @@
+/*
+
+This code is part of // yoooot css library //.
+Taking the code without clear permission is highly forbidden.
+
+                                  __    ___               __    __                    __                __
+   __  ______  ____  ____  ____  / /_  / (_)   _____    _/_/___/ /___ _      ______  / /___  ____ _____/ /
+  / / / / __ \/ __ \/ __ \/ __ \/ __/ / / / | / / _ \ _/_// __  / __ \ | /| / / __ \/ / __ \/ __ `/ __  / 
+ / /_/ / /_/ / /_/ / /_/ / /_/ / /__ / / /| |/ /  __//_/ / /_/ / /_/ / |/ |/ / / / / / /_/ / /_/ / /_/ /  
+ \__, /\____/\____/\____/\____/\__(_)_/_/ |___/\___/_/   \__,_/\____/|__/|__/_/ /_/_/\____/\__,_/\__,_/   
+/____/   
+
+*/
+form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+
+form button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #000;
+    transform: translate(0, 0);
+    background: transparent;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 1px solid #0056b3;
+    transition: 0.5s;
+    background: transparent;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #222;
+}
+
+input[type="reset"] {
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"]:hover {
+    background-color: #222;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    background: transparent;
+}
+
+input[type="checkbox"]:focus {
+    border: 0;
+    background: transparent;
+}
+
+input[type="checkbox"]:hover {
+    border: 0;
+    background: transparent;
+}
+
+input[type="checkbox"]:checked {
+    border: 0;
+    background: transparent;
+}
+
+input[type="checkbox"]:checked:hover {
+    border: 0;
+    background: transparent;
+}
+
+input[type="radio"] {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    background: transparent;
+}
+
+input[type="radio"]:focus {
+    border: 0;
+    background: transparent;
+}
+
+input[type="radio"]:hover {
+    border: 0;
+    background: transparent;
+}

@@ -1,3 +1,16 @@
+/*
+
+This code is part of // yoooot css library //.
+Taking the code without clear permission is highly forbidden.
+
+                                  __    ___               __    __                    __                __
+   __  ______  ____  ____  ____  / /_  / (_)   _____    _/_/___/ /___ _      ______  / /___  ____ _____/ /
+  / / / / __ \/ __ \/ __ \/ __ \/ __/ / / / | / / _ \ _/_// __  / __ \ | /| / / __ \/ / __ \/ __ `/ __  / 
+ / /_/ / /_/ / /_/ / /_/ / /_/ / /__ / / /| |/ /  __//_/ / /_/ / /_/ / |/ |/ / / / / / /_/ / /_/ / /_/ /  
+ \__, /\____/\____/\____/\____/\__(_)_/_/ |___/\___/_/   \__,_/\____/|__/|__/_/ /_/_/\____/\__,_/\__,_/   
+/____/   
+
+*/
 /* Navbar container */
 .navbar {
     display: flex;
@@ -5,27 +18,54 @@
     justify-content: space-between;
     background-color: #f2f2f2;
     padding: 10px;
-}
+  }
   
-/* Logo */
-.navbar-logo img {
+  /* Logo */
+  .navbar-logo img {
     height: 40px;
-}
+  }
   
-/* Navbar links */
-.navbar-links ul {
+  /* Navbar links */
+  .navbar-links ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+    display: flex;
+    align-items: center;
+  }
   
-.navbar-links li {
-    display: inline-block;
+  .navbar-links {
+    display: flex;
+    margin: 10px 5px;
+  }
+
+  .navbar-links li {
     margin-left: 10px;
-}
+  }
   
-.navbar-links a {
+  .navbar-links a {
     text-decoration: none;
-    width: 80px;
-    padding: 5px 10px;
-}
+    width: 140px;
+    padding: 10px 20px;
+  }
+  .navbar-toggle img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-links {
+      margin-top: 10px;
+      display: none;
+    }
+  
+    .navbar-links.active {
+      display: block;
+    }
+  }
+  

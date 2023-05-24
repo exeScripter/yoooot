@@ -1,8 +1,14 @@
 /*
 
-https://yoooot.live/download/
-This code is part of yoooot css library,
-taking the code without clear permission is highly forbidden.
+This code is part of // yoooot css library //.
+Taking the code without clear permission is highly forbidden.
+
+                                  __    ___               __    __                    __                __
+   __  ______  ____  ____  ____  / /_  / (_)   _____    _/_/___/ /___ _      ______  / /___  ____ _____/ /
+  / / / / __ \/ __ \/ __ \/ __ \/ __/ / / / | / / _ \ _/_// __  / __ \ | /| / / __ \/ / __ \/ __ `/ __  / 
+ / /_/ / /_/ / /_/ / /_/ / /_/ / /__ / / /| |/ /  __//_/ / /_/ / /_/ / |/ |/ / / / / / /_/ / /_/ / /_/ /  
+ \__, /\____/\____/\____/\____/\__(_)_/_/ |___/\___/_/   \__,_/\____/|__/|__/_/ /_/_/\____/\__,_/\__,_/   
+/____/   
 
 */
 
@@ -12,7 +18,8 @@ taking the code without clear permission is highly forbidden.
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    margin-top: 5px;
+    border-radius: 7px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -30,7 +37,7 @@ taking the code without clear permission is highly forbidden.
     background-color: transparent;
     color: #000;
     border: 1px solid #007bff;
-    border-radius: 5px;
+    border-radius: 7px;
 }
   
 .btn-outline {
@@ -45,8 +52,8 @@ taking the code without clear permission is highly forbidden.
 }
   
 .btn-outline:hover {
-    background-color: transparent;
-    color: #0056b3;
+    background-color: #007bff;
+    color: #fff;
 }
 
 .btn-secondary {

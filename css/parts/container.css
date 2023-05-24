@@ -1,3 +1,16 @@
+/*
+
+This code is part of // yoooot css library //.
+Taking the code without clear permission is highly forbidden.
+
+                                  __    ___               __    __                    __                __
+   __  ______  ____  ____  ____  / /_  / (_)   _____    _/_/___/ /___ _      ______  / /___  ____ _____/ /
+  / / / / __ \/ __ \/ __ \/ __ \/ __/ / / / | / / _ \ _/_// __  / __ \ | /| / / __ \/ / __ \/ __ `/ __  / 
+ / /_/ / /_/ / /_/ / /_/ / /_/ / /__ / / /| |/ /  __//_/ / /_/ / /_/ / |/ |/ / / / / / /_/ / /_/ / /_/ /  
+ \__, /\____/\____/\____/\____/\__(_)_/_/ |___/\___/_/   \__,_/\____/|__/|__/_/ /_/_/\____/\__,_/\__,_/   
+/____/   
+
+*/
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -6,23 +19,37 @@
 
 .container-sm {
     max-width: 540px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .container-md {
     max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .container-lg {
     max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .container-xl {
     max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .container-fluid {
     width: 100%;
     padding: 0 20px;
+}
+
+.cn-divider {
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
 }
 
 @media screen and (max-width: 320px) {
