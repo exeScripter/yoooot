@@ -1,0 +1,77 @@
+/*
+
+[!] MAIN STYLES, ANY COPYING IS STRICTLY FORBIDDEN [!]
+This code is part of // yoooot css library //.
+Taking the code without clear permission is highly forbidden.
+
+                                  __    ___               __    __                    __                __
+   __  ______  ____  ____  ____  / /_  / (_)   _____    _/_/___/ /___ _      ______  / /___  ____ _____/ /
+  / / / / __ \/ __ \/ __ \/ __ \/ __/ / / / | / / _ \ _/_// __  / __ \ | /| / / __ \/ / __ \/ __ `/ __  / 
+ / /_/ / /_/ / /_/ / /_/ / /_/ / /__ / / /| |/ /  __//_/ / /_/ / /_/ / |/ |/ / / / / / /_/ / /_/ / /_/ /  
+ \__, /\____/\____/\____/\____/\__(_)_/_/ |___/\___/_/   \__,_/\____/|__/|__/_/ /_/_/\____/\__,_/\__,_/   
+/____/                                                                                                    
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    width: 90px;
+    padding: 10px 20px;
+}
+
+a:hover {
+    color: #0056b3;
+    transition: 0.5s;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+.primary {
+    color: #1a63d1;
+}
+
+.secondary {
+    color: #777;
+}
+
+.danger {
+    color: #e74c3c;
+}
+
+.success {
+    color: #2ecc71;
+}
